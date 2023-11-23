@@ -7,6 +7,7 @@ import Lenis from '@studio-freight/lenis'
 import Marquee from '@/components/sections/Marquee'
 import Header from '../components/sections/Header'
 import Team from '@/components/sections/Team'
+import Experience from '@/components/sections/Experience'
 export default function Home() {
 
     // Use lennis for smooth scroll
@@ -24,6 +25,7 @@ export default function Home() {
     <main className="bg-[#fb5724] text-[#1a2842] ">
       <Header />
       <Landing />
+      <Experience />
       <Gallery />
       <Marquee />
       <Team />

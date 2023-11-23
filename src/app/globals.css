@@ -66,3 +66,16 @@ body {
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
 }
+
+
+/*********/
+#experience span {
+    display: inline-block;
+    transform-origin: top right;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+
+}

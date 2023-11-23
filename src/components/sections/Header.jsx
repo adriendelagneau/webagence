@@ -1,7 +1,6 @@
 "use client"
-import Image from 'next/image';
 import React, { useEffect, useRef, useState } from 'react'
-
+import GsapMagnetic from '../Magnetic'
 const Header = () => {
 
   const [isScrollingDown, setIsScrollingDown] = useState(false);
@@ -68,13 +67,16 @@ const Header = () => {
          </ul>
       
       <div>
+
+      <GsapMagnetic>
       <svg className="fill-current text-myBlue" height="55px" width="55px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 502.664 502.664" xmlSpace="preserve">
   <g>
     <g>
       <path d="M363.532,79.873c-72.952,14.496-67.754,73.858-126.405,98.816 c-25.971,11.023-85.809,17.688-92.323,14.603c-39.733-18.68-98.169-65.403-98.169-65.403s5.22,38.051,25.583,70.903 C24.612,187.533,0,163.179,0,163.179s31.536,274.769,246.791,261.503 C410.6,414.608,400.828,269.631,427.662,227.438 c26.791-42.128,75.002-33.392,75.002-33.392S473.177,58.129,363.532,79.873z M401.864,162.532 c-10.009,0-18.098-8.111-18.098-18.098s8.089-18.098,18.098-18.098c9.966,0,18.076,8.132,18.076,18.098 S411.851,162.532,401.864,162.532z" />
     </g>
   </g>
-</svg>
+          </svg>
+          </GsapMagnetic>
 
       </div>
         </nav>
