@@ -5,7 +5,8 @@ import Footer from '@/components/sections/Footer'
 import { useEffect } from 'react'
 import Lenis from '@studio-freight/lenis'
 import Marquee from '@/components/sections/Marquee'
-
+import Header from '../components/sections/Header'
+import Team from '@/components/sections/Team'
 export default function Home() {
 
     // Use lennis for smooth scroll
@@ -20,10 +21,12 @@ export default function Home() {
   
   
   return (
-    <main className="bg-[#fb5724] text-[#1a2842]">
+    <main className="bg-[#fb5724] text-[#1a2842] ">
+      <Header />
       <Landing />
       <Gallery />
       <Marquee />
+      <Team />
       <Footer />
     </main>
   )

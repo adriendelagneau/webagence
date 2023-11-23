@@ -1,4 +1,5 @@
-import { useRef, useEffect } from 'react';
+'use client'
+import { useRef, useEffect, useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import Image from 'next/image';
 
@@ -10,7 +11,8 @@ const Modal = ({modal, projects}) => {
     const modalContainer = useRef(null);
     const cursor = useRef(null);
 
-    useEffect( () => {
+  useLayoutEffect(() => {
+
   
         //Move Container
         let xMoveContainer = gsap.quickTo(modalContainer.current, "left", {duration: 0.8, ease: "power3"})
@@ -47,7 +49,7 @@ const Modal = ({modal, projects}) => {
         {
             projects.map( (project, index) => {
             const { src, color } = project
-            return <div className="h-full w-full flex items-center justify-center" style={{backgroundColor: color}} key={`modal_${index}`}>
+            return <div className="flex items-center justify-center w-full h-full" style={{backgroundColor: color}} key={`modal_${index}`}>
                 <Image
                 src={`/images/${src}`}
                 width={300}
