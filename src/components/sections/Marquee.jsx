@@ -90,15 +90,15 @@ const Marquee = () => {
   return (
     <div className='relative flex h-[50vh] w-full overflow-hidden '>
 
-<div className="absolute z-10 -translate-x-3 top-2/4 border-y-2 rotate-3 border-skin-border" >
+      <div className="absolute z-10 -translate-x-3 top-2/4 border-y-2 rotate-3 border-skin-border" >
         <div ref={slider} className="relative whitespace-nowrap">
           <p className='relative pr-5 m-0 uppercase text-7xl' ref={firstText}> blackbird studio - blackbird studio - blackbird studio -</p>
           <p className='absolute top-0 left-[100%] m-0 text-7xl pr-5 uppercase' ref={secondText}> blackbird studio - blackbird studio - blackbird studio -</p>
         </div>
       </div>
 
-      <div className="absolute z-10 -translate-x-3 top-1/2">
-        <div ref={slider2} className="relative z-20 whitespace-nowrap -rotate-6 border-y-2 border-skin-border bg-skin-fill">
+      <div className="absolute z-10 -translate-x-3 top-1/2 -rotate-6 border-y-2 border-skin-border ">
+        <div ref={slider2} className="relative z-20 whitespace-nowrap ">
           <p className='relative pr-5 m-0 uppercase text-7xl ' ref={firstText2}> blackbird studio - blackbird studio - blackbird studio -</p>
           <p className='absolute top-0 left-[100%] m-0 text-7xl pr-5 uppercase ' ref={secondText2}> blackbird studio - blackbird studio - blackbird studio -</p>
         </div>
