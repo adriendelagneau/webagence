@@ -3,6 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --textColor: #fb5724;
+    --backgroundColor: #1a2842;
+  }
+
+  .theme-toto {
+    --textColor: #1a2842;
+    --backgroundColor: #fb5724;
+  }
+}
+
 
 body {
   overflow-x: hidden;

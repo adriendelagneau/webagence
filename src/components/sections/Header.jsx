@@ -43,24 +43,24 @@ const Header = () => {
 
       
       <ul className='flex items-center justify-between h-full gap-3 uppercase'>
-      <li className='h-12 overflow-hidden border rounded-full cursor-pointer border-myBlue'>
+      <li className='h-12 overflow-hidden border rounded-full cursor-pointer border-skin-border'>
     <div className="h-24 transition-all hover:-translate-y-1/2">
-      <div className='flex items-center justify-center h-12 p-5 bg-myOrange'>episodes</div>
-      <div className='flex items-center justify-center h-12 bg-myBlue text-myOrange'>episodes</div>  
+      <div className='flex items-center justify-center h-12 p-5 '>episodes</div>
+      <div className='flex items-center justify-center h-12 bg-skin-secondary text-skin-secondary'>episodes</div>  
     </div>
 
 </li>
-<li className='h-12 overflow-hidden border rounded-full cursor-pointer border-myBlue'>
+<li className='h-12 overflow-hidden border rounded-full cursor-pointer border-skin-border'>
     <div className="h-24 transition-all hover:-translate-y-1/2">
-      <div className='flex items-center justify-center h-12 p-5 bg-myOrange'>episodes</div>
-      <div className='flex items-center justify-center h-12 bg-myBlue text-myOrange'>episodes</div>  
+      <div className='flex items-center justify-center h-12 p-5 '>episodes</div>
+      <div className='flex items-center justify-center h-12 bg-skin-secondary text-skin-secondary'>episodes</div>  
     </div>
 
 </li>
-<li className='h-12 overflow-hidden border rounded-full cursor-pointer border-myBlue'>
+<li className='h-12 overflow-hidden border rounded-full cursor-pointer border-skin-border'>
     <div className="h-24 transition-all hover:-translate-y-1/2">
-      <div className='flex items-center justify-center h-12 p-5 bg-myOrange'>episodes</div>
-      <div className='flex items-center justify-center h-12 bg-myBlue text-myOrange'>episodes</div>  
+      <div className='flex items-center justify-center h-12 p-5 '>episodes</div>
+      <div className='flex items-center justify-center h-12 bg-skin-secondary text-skin-secondary'>episodes</div>  
     </div>
 
 </li>

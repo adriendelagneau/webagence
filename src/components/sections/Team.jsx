@@ -55,11 +55,11 @@ const Team = () => {
 
       <div className='flex flex-col items-center'>
 
-        <div className='w-[140px] h-[140px] relative rounded-3xl sm:w-[180px] sm:h-[180px] xl:w-[250px] xl:h-[250px] 2xl:w-[320px] 2xl:h-[320px] border-2 border-myBlue'>
-          <div className='absolute top-0 left-0 z-10 w-full h-full filter grayscale rounded-3xl cp1' ref={myRef}>
+        <div className='w-[140px] h-[140px] relative rounded-3xl sm:w-[180px] sm:h-[180px] xl:w-[250px] xl:h-[250px] 2xl:w-[320px] 2xl:h-[320px] border-2 border-skin-border '>
+          <div className='absolute top-0 left-0 z-10 w-full h-full rounded-3xl cp1' ref={myRef}>
             <img src='/images/team/portrait-white-man-isolated.jpg' alt='' className='w-full h-full mx-auto rounded-3xl cover' />
           </div>
-          <div className='absolute top-0 left-0 w-full h-full filter grayscale rounded-3xl z-5 cp1'>
+          <div className='absolute top-0 left-0 w-full h-full rounded-3xl z-5 cp1'>
             <img src='/images/team/fotor-ai-2023111704210.jpg' alt='' className='w-full h-full m-auto rounded-3xl cover' />
           </div>
         </div>
@@ -70,11 +70,11 @@ const Team = () => {
 
       <div className='flex flex-col items-center'>
 
-        <div className='w-[140px] h-[140px] relative rounded-3xl sm:w-[180px] sm:h-[180px] xl:w-[250px] xl:h-[250px] 2xl:w-[320px] 2xl:h-[320px] border-2 border-myBlue'>
-          <div className='absolute top-0 left-0 z-10 w-full h-full filter grayscale rounded-3xl cp1' ref={myRef1}>
+        <div className='w-[140px] h-[140px] relative rounded-3xl sm:w-[180px] sm:h-[180px] xl:w-[250px] xl:h-[250px] 2xl:w-[320px] 2xl:h-[320px] border-2 border-skin-border '>
+          <div className='absolute top-0 left-0 z-10 w-full h-full rounded-3xl cp1' ref={myRef1}>
             <img src='/images/team/portrait-white-man-isolated.jpg'  alt='' className='w-full h-full rounded-3xl cover' />
           </div>
-          <div className='absolute top-0 left-0 w-full h-full filter grayscale rounded-3xl z-5 cp1'>
+          <div className='absolute top-0 left-0 w-full h-full rounded-3xl z-5 cp1'>
             <img src='/images/team/fotor-ai-2023111704629.jpg' alt='' className='w-full h-full rounded-3xl cover' />
           </div>
         </div>
@@ -85,11 +85,11 @@ const Team = () => {
 
       <div className='flex flex-col items-center'>
 
-        <div className='w-[140px] h-[140px] relative rounded-3xl sm:w-[180px] sm:h-[180px] xl:w-[250px] xl:h-[250px] 2xl:w-[320px] 2xl:h-[320px] border-2 border-myBlue'>
-          <div className='absolute top-0 left-0 z-10 w-full h-full filter grayscale rounded-3xl cp1' ref={myRef2}>
+        <div className='w-[140px] h-[140px] relative rounded-3xl sm:w-[180px] sm:h-[180px] xl:w-[250px] xl:h-[250px] 2xl:w-[320px] 2xl:h-[320px] border-2 border-skin-border '>
+          <div className='absolute top-0 left-0 z-10 w-full h-full rounded-3xl cp1' ref={myRef2}>
             <img src='/images/team/portrait-white-man-isolated.jpg' alt='' className='w-full h-full rounded-3xl cover' />
           </div>
-          <div className='absolute top-0 left-0 w-full h-full filter grayscale rounded-3xl z-5 cp1'>
+          <div className='absolute top-0 left-0 w-full h-full rounded-3xl z-5 cp1'>
             <img src='/images/team/download_image_1700141477311.png' alt='' className='w-full h-full rounded-3xl cover' />
           </div>
         </div>

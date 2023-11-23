@@ -22,7 +22,7 @@ export default function Home() {
   
   
   return (
-    <main className="bg-[#fb5724] text-[#1a2842] ">
+    <main className="bg-skin-fill text-skin-base theme-toto">
       <Header />
       <Landing />
       <Experience />

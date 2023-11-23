@@ -50,7 +50,7 @@ const Experience = () => {
               {splitText}
           </div>
               <div className='flex justify-end w-full'>
-                  <p className='w-1/3 pt-20 text-xl pr-7 toto'>Connues ou moins connues, j’accueille dans #lvr des personnalités inspirantes qui ont un parcours hors du commun.</p>
+                  <p className='w-1/3 pt-20 text-2xl pr-7 toto'>Connues ou moins connues, j’accueille dans #lvr des personnalités inspirantes qui ont un parcours hors du commun.</p>
           <div className='flex'>
           <div className='pr-12 text-[210px] uppercase'>{splitText2}</div>
           <div className='text-[200px] uppercase'>{ splitText3}</div>

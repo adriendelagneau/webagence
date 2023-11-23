@@ -10,9 +10,23 @@ module.exports = {
       fontFamily: {
         'RussoOne': ['RussoOne','sans-serif']
       },
-      colors: {
-        "myOrange": '#fb5724',
-        "myBlue": '#1a2842'
+      textColor: {
+        skin: {
+          base: 'var(--textColor)',
+          secondary:  'var(--backgroundColor)'
+        }
+      },
+      backgroundColor: {
+        skin: {
+          fill: 'var(--backgroundColor)',
+          secondary:  'var(--textColor)'
+        }
+      },
+      borderColor: {
+        skin: {
+          border: 'var(--textColor)',
+          secondary:  'var(--backgroundColor)'
+        }
       }
     },
   },
